@@ -70,7 +70,7 @@ def find_empty(bo):
     return None
 
 
-path = 'Untitled-1.png'
+path = './data/good/5.png'
 board = img2str(path)
 print(board)
 print_board(board)
