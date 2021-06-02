@@ -78,7 +78,7 @@ chi tiết xem thêm tại [đây](https://amin-ahmadi.com/cascade-trainer-gui/)
   python solver.py
   ```
 
-# All tools and large file in project in my drive, please check the link bellow :
+# All tools and large file in my drive, please check the link bellow :
       https://drive.google.com/drive/folders/12QYtYtWz0AT7mm2KUMt7_YboVlAdH5hP?usp=sharing
 
 Có 4 người 4 việc :
