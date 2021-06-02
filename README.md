@@ -53,5 +53,8 @@ Có 4 người 4 việc :
 - code :
     - code từ phần ảnh gốc thành ảnh mẫu.
     - code phần từ ảnh mẫu sang thành chữ.
-#All tool and large file in project in my drive, please check thís link for more :
+  
+
+
+# All tool and large file in project in my drive, please check thís link for more :
       https://drive.google.com/drive/folders/12QYtYtWz0AT7mm2KUMt7_YboVlAdH5hP?usp=sharing
