@@ -18,14 +18,14 @@ và sau đó sử dụng thật nhiều đặc trưng đó qua nhiều lượt (
 Các bộ lọc ở Haar hơi khác 1 chút so với CNN, thay vì là 1 cửa sổ trượt thì ở Haar,
 bộ lọc chỉ chiếm một phần trong cả cửa sổ trượt
 
-##https://docs.opencv.org/3.3.0/haar.png
+https://docs.opencv.org/3.3.0/haar.png
 
 #how to haar cascade work ?
 ###chỉ cần sử dụng 1 file có đuôi mở rộng là xml thif có thể sử dụng các đặc trưng của việc training để phát hiện các vật thể nó tiện dụng như vậy á ? đéo, đéo và đéo. nó là 1 file lưu các đặc trưng của vật thể WTF ? đặc trưng lấy đâu ra ? nó được training từ dữ liệu được gắn nhãn, là học máy có giám sát, từ 2 tệp dữ liệu bao gồm positive (tệp hình ảnh tích cực có vật thể) và negative ( tệp hình ảnh tiêu cực không có vật thể) sử dụng ToolCascadeTrainerGUI để xuất ra file Xml
-###https://youtu.be/hPCTwxF0qf4
+https://youtu.be/hPCTwxF0qf4
 ###how to make a haar cascade file
 use Tool CascadeTrainer Gui để xuất file Xml.
-###https://amin-ahmadi.com/cascade-trainer-gui/
+https://amin-ahmadi.com/cascade-trainer-gui/
 
 ##Những cái trên để làm gì ?
 để từ 1 tệp có thể phát hiện ra có lưới Sudoku ở trong hình ảnh,
