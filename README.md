@@ -1,5 +1,5 @@
-# hi, just another day, good job.
-#Detect and solve Sudoku
+
+# Detect and solve Sudoku
 what is sudoku ?
 Sudoku (数独すうどく (số độc) sūdoku?) (/[invalid input: 'Sudoku.ogg']suːˈdoʊkuː/, /-ˈdɒ-/, /sə-/, ban đầu có tên gọi là Number Place)[1] là một trò chơi câu đố sắp xếp chữ số dựa trên logic[2][3] theo tổ hợp.[4] Mục tiêu của trò chơi là điền các chữ số vào một lưới 9×9 sao cho mỗi cột, mỗi hàng, và mỗi phần trong số chín lưới con 3×3 cấu tạo nên lưới chính (cũng gọi là "hộp", "khối", hoặc "vùng") đều chứa tất cả các chữ số từ 1 tới 9. Câu đố đã được hoàn thành một phần, người chơi phải giải tiếp bằng việc điền số. Mỗi câu đố được thiết lập tốt có một cách làm duy nhất.
 
@@ -7,7 +7,7 @@ Những bảng trò chơi đã được hoàn chỉnh luôn tạo thành một l
 nguồn : 
 ##https://vi.wikipedia.org/wiki/Sudoku
 
-#How to CNN work ?
+# How to CNN work ?
 Convolutional Neural Network (CNNs – Mạng nơ-ron tích chập)
 là một trong những mô hình Deep Learning tiên tiến.
 Nó giúp cho chúng ta xây dựng được những hệ thống thông minh
@@ -19,20 +19,20 @@ và sau đó sử dụng thật nhiều đặc trưng đó qua nhiều lượt (
 Các bộ lọc ở Haar hơi khác 1 chút so với CNN, thay vì là 1 cửa sổ trượt thì ở Haar,
 bộ lọc chỉ chiếm một phần trong cả cửa sổ trượt
 
-##https://docs.opencv.org/3.3.0/haar.png
+### https://docs.opencv.org/3.3.0/haar.png
 
-#how to haar cascade work ?
+## how to haar cascade work ?
 
-###chỉ cần sử dụng 1 file có đuôi mở rộng là xml thif có thể sử dụng các đặc trưng của việc training để phát hiện các vật thể nó tiện dụng như vậy á ? đéo, đéo và đéo. nó là 1 file lưu các đặc trưng của vật thể WTF ? đặc trưng lấy đâu ra ? nó được training từ dữ liệu được gắn nhãn, là học máy có giám sát, từ 2 tệp dữ liệu bao gồm positive (tệp hình ảnh tích cực có vật thể) và negative ( tệp hình ảnh tiêu cực không có vật thể) sử dụng ToolCascadeTrainerGUI để xuất ra file Xml
+### chỉ cần sử dụng 1 file có đuôi mở rộng là xml thif có thể sử dụng các đặc trưng của việc training để phát hiện các vật thể nó tiện dụng như vậy á ? đéo, đéo và đéo. nó là 1 file lưu các đặc trưng của vật thể WTF ? đặc trưng lấy đâu ra ? nó được training từ dữ liệu được gắn nhãn, là học máy có giám sát, từ 2 tệp dữ liệu bao gồm positive (tệp hình ảnh tích cực có vật thể) và negative ( tệp hình ảnh tiêu cực không có vật thể) sử dụng ToolCascadeTrainerGUI để xuất ra file Xml
 https://youtu.be/hPCTwxF0qf4
 
-###how to make a haar cascade file
+### how to make a haar cascade file
 
 use Tool CascadeTrainer Gui để xuất file Xml.
 
 https://amin-ahmadi.com/cascade-trainer-gui/
 
-##Những cái trên để làm gì ?
+## Những cái trên để làm gì ?
 
 để từ 1 tệp có thể phát hiện ra có lưới Sudoku ở trong hình ảnh,
 xác định vị trí của lưới,
@@ -88,3 +88,4 @@ Có 4 người 4 việc :
     - code từ phần ảnh gốc thành ảnh mẫu.
     - code phần từ ảnh mẫu sang thành chữ.
   
+### hi, just another day, good job.
