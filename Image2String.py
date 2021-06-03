@@ -5,6 +5,8 @@ import RemoveHV as rm
 import pytesseract
 from collections import  Counter
 from dfRec import findRec
+import os, random
+
 from transform import transfromToSquare
 def generate_text(img):
     pytesseract.pytesseract.tesseract_cmd = "D:\\SteamGame\\New folder\\tesseract.exe"
@@ -49,13 +51,16 @@ def toStr(img, x=100):
     return arr
 
 def img2str(path):
-    img = cv2.imread(path, 0)
-    img1 = cv2.imread(path)
-    ress= findRec(img1) #return npfloat32
-    ress = cv2.cvtColor(ress,cv2.COLOR_BGR2GRAY)
-    return toStr(ress)
-
-
+    if path == '':
+        return
+    else :
+        path = random.choice(os.listdir("./data/p/")) # change dir name to whatever
+        path = "./data/p/"+path
+        # img = cv2.imread(path, 0)
+        img1 = cv2.imread(path)
+        ress= findRec(img1) #return npfloat32
+        ress = cv2.cvtColor(ress,cv2.COLOR_BGR2GRAY)
+        return toStr(ress)
 
 if __name__ == '__main__':
     path = 'Untitled-1.png'

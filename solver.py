@@ -70,19 +70,20 @@ def find_empty(bo):
     return None
 
 
-path = './data/good/5.png'
+path = './data/demo.png'
+cv2.imshow('raw', cv2.imread(path,1))
 board = img2str(path)
 print(board)
 print_board(board)
 solve(board)
 print("_________Solve________")
 print_board(board)
-img = numpy.ones((400, 400, 1), numpy.uint8) * 255
+img = numpy.ones((800, 800, 1), numpy.uint8) * 255
 font = cv2.FONT_HERSHEY_SIMPLEX
 color = (0,255,255)
 for i in range(0, 9):
     for j in range(0, 9):
-        cv2.putText(img, str(board[j][i]), (i * 40+40, j * 40+40),font,1, color, 2)
+        cv2.putText(img, str(board[j][i]), (i * 80+80, j * 80+80),font,3, color, 2)
 cv2.imshow('image', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

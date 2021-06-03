@@ -12,6 +12,7 @@ là một trong những mô hình Deep Learning tiên tiến.
 Nó giúp cho chúng ta xây dựng được những hệ thống thông minh
 với độ chính xác cao như hiện nay.
 #Haar Cascade là gì?
+
 Về cơ bản là sử dụng các đặc trưng loại Haar
 và sau đó sử dụng thật nhiều đặc trưng đó qua nhiều lượt (cascade)
 để tạo thành một cỗ máy nhận diện hoàn chỉnh.
