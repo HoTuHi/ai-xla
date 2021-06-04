@@ -1,6 +1,10 @@
 import cv2
 import  pytesseract
 import numpy as np
+import  time
+def haarCascade(img) :
+    time.sleep(2)
+    return cv2.imread("C:/Users/Admin/Documents/GitHub/python/xla/demo.png")
 
 def generate_text(img):
     image = np.array(img)
@@ -32,6 +36,3 @@ def generate_text(img):
     concateImg = np.concatenate((concateImg, image), axis=1)
     concateImg = np.concatenate((concateImg, image), axis=1)
     return pytesseract.image_to_string(concateImg)
-
-cv2.imshow("res",img)
-cv2.waitKey(0)

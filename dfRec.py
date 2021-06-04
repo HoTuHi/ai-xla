@@ -6,7 +6,7 @@ from transform import transfromToSquare
 def resize(img, height=800):
     """ Resize image to given height """
     rat = height / img.shape[0]
-    return cv2.resize(img, (int(rat * img.shape[1]), height))
+    return cv2.resize(img, (int(800), height))
 
 def findRec(image):
     # Resize and convert to grayscale
@@ -25,8 +25,7 @@ def findRec(image):
         approx = cv2.approxPolyDP(c, 0.02 * peri, True)
         if len(approx) == 4:
             aaa = np.float32([approx[0],approx[3],approx[1],approx[2]])
-            # return aaa
-            # cv2.drawContours(ress, [approx], -1, (0,255,0), 3)
             ress = transfromToSquare(resize(image), aaa)
+            cv2.imshow("sample",ress)
             return ress
             break
