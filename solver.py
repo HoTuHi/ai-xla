@@ -79,7 +79,7 @@ solve(board)
 print("_________Solve________")
 print_board(board)
 img = numpy.ones((800, 800, 1), numpy.uint8) * 255
-font = cv2.FONT_HERSHEY_SIMPLEX
+font = cv2.FONT_HERSHEY_TRIPLEX
 color = (0,255,255)
 for i in range(0, 9):
     for j in range(0, 9):

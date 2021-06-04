@@ -54,8 +54,8 @@ def img2str(path):
     if path == '':
         return
     else :
-        path = random.choice(os.listdir("./data/p/")) # change dir name to whatever
-        path = "./data/p/"+path
+        path = random.choice(os.listdir("./data/param/")) # change dir name to whatever
+        path = "./data/param/"+path
         # img = cv2.imread(path, 0)
         img1 = cv2.imread(path)
         ress= findRec(img1) #return npfloat32
